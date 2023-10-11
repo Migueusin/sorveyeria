@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorveteria Suplicy</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <header>
+        <h1> Sorveteria Suplicy</h1>
+    </header>
+    <div class="principal">
+    <div class="pedido">
+
+    <label>Nome:</label>
+ <input id="nome" type="text" placeholder="seu nome"></input> 
+ <br>
+ 
+    <label>Quantidade:</label>
+    <input id="pedido" type="number" min="1" placeholder="sorvetes vc quer?"></input>
+<br>
+    <label id="sabores">Sabores:</label>
+   <select>
+    <option value="chocolate">Chocolate</option>
+    <option value="morango">Morango</option>
+    <option value="creme">Creme</option>
+    <option value="napolitano">Napolitano</option>
+    <br>
+   </select>
+
+   <button type="submit" id="botao"> fazer pedido</button>
+</div>
+   <hr>
+            
+   <p id="pedidoNome"></p>
+   <p id="pedidoQuantia"></p>
+   <p id="pedidoSabores"></p>
+
+   <script src="script.js"></script>
+</body> 
+</html>
